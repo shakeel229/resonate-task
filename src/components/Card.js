@@ -38,7 +38,7 @@ export default function Card(props) {
                         
                        <p className="address-lines">
                        <span className="bold-text">&nbsp; Zip Code&nbsp;</span>{props.address.zipcode}
-                       <span>&nbsp;&nbsp;&nbsp;<a href={`https://maps.google.com/maps?q=${props.address.geo.lat},${props.address.geo.lng}&hl=es;z=14&amp;`} target="_blank">
+                       <span>&nbsp;&nbsp;&nbsp;<a href={`https://maps.google.com/maps?q=${props.address.geo.lat},${props.address.geo.lng}&hl=es;z=14&amp;`} target="_blank" rel="noreferrer">
                           View On Google Maps</a>&nbsp;</span></p>
              
 
