@@ -12,7 +12,7 @@ const [allUsers, setAllUsers] = React.useState([]);
         .then(data => setAllUsers(data))
     console.log(allUsers)
 
-},[])
+},[allUsers])
 const cards = allUsers.map((user)=>{
   return(
     <Card id={user.id}
