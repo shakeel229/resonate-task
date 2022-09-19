@@ -1,0 +1,26 @@
+body {
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    position: sticky !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #5D5FEF;
+    height: 60px;
+    color: aliceblue;
+    width: 100%;
+}
+.navbar h4 {
+    font-family: 'Vollkorn', serif;
+  text-align:center;
+  color:#ecf0f1;
+  text-shadow:0 0.1em 0.2em #008c8d;
+  font-size: 25px;
+    
+}
+.title {
+margin-left: 10px;
+}
