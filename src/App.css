@@ -9,11 +9,16 @@
   background-color: #E5E5E5;
   
 }
+@media (max-width: 479px) {
+  .main-content  {
+      
+      width: 100vw;
+  }
+}
 .main-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 550px;
   align-items: center;
   background-color: white;
   
