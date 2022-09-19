@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Card from './components/Card.js';
 function App() {
-  const [uId,setUid] = React.useState([]);
+  
 const [allUsers, setAllUsers] = React.useState([]);
 
 
@@ -13,7 +13,7 @@ const [allUsers, setAllUsers] = React.useState([]);
         .then(data => setAllUsers(data))
     
 
-},[uId])
+},[allUsers])
 const cards = allUsers.map((user)=>{
   return(
     <Card id={user.id}

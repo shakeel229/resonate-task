@@ -1,4 +1,6 @@
-#### Application is Live here [Netlity Link](https://covid-tracker-shakeel.netlify.app/)
+#### Application is Live here [Netlity Link](https://resonate-contacts.netlify.app/)
+
+![](contacts-app.gif)
 
 # Resonate My Contacts App in React.js
 
