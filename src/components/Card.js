@@ -31,7 +31,8 @@ export default function Card(props) {
                         </p>
                         <p className="address-lines">
                         <span className="bold-text"> &nbsp;Street&nbsp;&nbsp; 
-                       </span><span>{props.address.street}<span className="bold-text"> &nbsp;Suite &nbsp;</span> {props.address.suite}        
+                       </span><span>{props.address.street}<span className="bold-text"> &nbsp;Suite &nbsp;</span>
+                       <span>{props.address.suite}</span>         
                        </span>
                        <span className="bold-text">&nbsp; City&nbsp;</span>{props.address.city} 
                         </p>
