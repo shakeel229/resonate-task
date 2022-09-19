@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Card from './components/Card.js';
 function App() {
+  const [uId,setUid] = React.useState([]);
 const [allUsers, setAllUsers] = React.useState([]);
 
 
@@ -10,9 +11,9 @@ const [allUsers, setAllUsers] = React.useState([]);
     fetch("https://jsonplaceholder.typicode.com/users")
         .then(res => res.json())
         .then(data => setAllUsers(data))
-    console.log(allUsers)
+    
 
-},[allUsers])
+},[uId])
 const cards = allUsers.map((user)=>{
   return(
     <Card id={user.id}
